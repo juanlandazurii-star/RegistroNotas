@@ -1,0 +1,104 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f2f4f8;
+}
+
+.contenedor{
+    width:90%;
+    max-width:900px;
+    margin:40px auto;
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 0 15px rgba(0,0,0,.2);
+}
+
+h1{
+    text-align:center;
+    color:#1f4e79;
+    margin-bottom:10px;
+}
+
+.descripcion{
+    text-align:center;
+    margin-bottom:30px;
+    color:#666;
+}
+
+.formulario{
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+}
+
+label{
+    font-weight:bold;
+}
+
+input{
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:6px;
+    font-size:16px;
+}
+
+button{
+    background:#1f4e79;
+    color:white;
+    padding:12px;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+    font-size:16px;
+    transition:.3s;
+}
+
+button:hover{
+    background:#163b5d;
+}
+
+table{
+    width:100%;
+    margin-top:30px;
+    border-collapse:collapse;
+}
+
+th{
+    background:#1f4e79;
+    color:white;
+    padding:12px;
+}
+
+td{
+    border:1px solid #ddd;
+    padding:10px;
+    text-align:center;
+}
+
+.estadisticas{
+    margin-top:30px;
+    background:#eef4fa;
+    padding:20px;
+    border-radius:8px;
+}
+
+.estadisticas p{
+    margin:10px 0;
+    font-size:18px;
+}
+
+.aprobado{
+    color:green;
+    font-weight:bold;
+}
+
+.reprobado{
+    color:red;
+    font-weight:bold;
+}
